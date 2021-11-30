@@ -1,7 +1,7 @@
 # MoRe Modena Racing - Aeromap for VI-Grade simulation
 
-This repository is made to create an aeromap file for VI-Grade and make an accurate simulation of a FSAE vehicle.
-There are two tipes of scripts, AER Standard and AER Advanced. The main difference between the two is that AER Advanced scripts require more input than AER Standard, and thus outputs more precise data.
+This repository was made to create an aeromap file for VI-Grade and make an accurate simulation of a FSAE vehicle.
+There are two tipes of scripts, AER Standard and AER Advanced. The main difference between the two is that AER Advanced scripts requires more data in input than AER Standard, and thus outputs more precise data.
 
 
 ## AER Standard
