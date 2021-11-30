@@ -1,0 +1,84 @@
+$---------------------------------------------------------------------MDI_HEADER
+[MDI_HEADER]
+FILE_TYPE = 'aer'
+FILE_VERSION = 5
+FILE_FORMAT = 'ASCII'
+(COMMENTS)
+{comment_string}
+'AER Standard MMR Combustion'
+'NOTE: the user-defined unit tags are not supported within tables'
+' They are accepted for single value parameters only.'
+$----------------------------------------------------------------units
+[UNITS]
+(BASE)
+{length force angle mass time}
+'mm' 'N' 'degree' 'kg' 'sec'
+(USER)
+{unit_type length force angle mass time conversion}
+'m_s' 1 0 0 0 -1 1000.0
+'kgpm3' -3 0 0 1 0 1e-9
+$-------------------------------------------------------------test_conditions
+[TEST_CONDITIONS]
+reference_velocity <kmh> = 100.0
+air_density <kgpm3> = 1.0 $[kg/m^3]
+reference_density = 1.0
+front_ride_height_min = 10.0
+front_ride_height_max = 160.0
+rear_ride_height_min = 10.0
+rear_ride_height_max = 160.0
+drag_arm_height_min = -50.0
+drag_arm_height_max = 50.0
+$-------------------------------------------------------------front_downforce
+[FRONT_DOWNFORCE]
+(Z_DATA)
+{rear_ride_height }
+10.0
+40.0
+80.0
+120.0
+140.0
+160.0
+(XY_DATA)
+{front_ride_height downforce }
+10.0 400.0 400.0 400.0 400.0 400.0 400.0
+40.0 400.0 400.0 400.0 400.0 400.0 400.0
+80.0 400.0 400.0 400.0 400.0 400.0 400.0
+120.0 400.0 400.0 400.0 400.0 400.0 400.0
+140.0 400.0 400.0 400.0 400.0 400.0 400.0
+160.0 400.0 400.0 400.0 400.0 400.0 400.0
+$--------------------------------------------------------------rear_downforce
+[REAR_DOWNFORCE]
+(Z_DATA)
+{rear_ride_height }
+10.0
+40.0
+80.0
+120.0
+140.0
+160.0
+(XY_DATA)
+{front_ride_height downforce }
+10.0 500.0 500.0 500.0 500.0 500.0 500.0
+40.0 500.0 500.0 500.0 500.0 500.0 500.0
+80.0 500.0 500.0 500.0 500.0 500.0 500.0
+120.0 500.0 500.0 500.0 500.0 500.0 500.0
+140.0 500.0 500.0 500.0 500.0 500.0 500.0
+160.0 500.0 500.0 500.0 500.0 500.0 500.0
+$------------------------------------------------------------------------drag
+[DRAG]
+(Z_DATA)
+{rear_ride_height }
+10.0
+40.0
+80.0
+120.0
+140.0
+160.0
+(XY_DATA)
+{front_ride_height drag }
+10.0 1200.0 1200.0 1200.0 1200.0 1200.0 1200.0
+40.0 1200.0 1200.0 1200.0 1200.0 1200.0 1200.0
+80.0 1200.0 1200.0 1200.0 1200.0 1200.0 1200.0
+120.0 1200.0 1200.0 1200.0 1200.0 1200.0 1200.0
+140.0 1200.0 1200.0 1200.0 1200.0 1200.0 1200.0
+160.0 1200.0 1200.0 1200.0 1200.0 1200.0 1200.0
