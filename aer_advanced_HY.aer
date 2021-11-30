@@ -5,7 +5,7 @@ FILE_VERSION = 2.0
 FILE_FORMAT = 'ASCII'
 (COMMENTS)
 {comment_string}
-'AER Advanced MMR Combustion'
+'AER Advanced MMR Hybrid'
 'NOTE: the user-defined unit tags are not supported within tables'
 ' They are accepted for single value parameters only.'
 $--------------------------------------------------------------------------UNITS
