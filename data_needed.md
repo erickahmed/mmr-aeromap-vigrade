@@ -1,4 +1,4 @@
-## This is a summary of the data we need to gather: ##
+## This is a summary of the data we need: ##
 
 
 ### AER STANDARD: ###
