@@ -13,7 +13,6 @@
         [N]     front and rear downforce (X,Y,Z)
         [N]     front and rear ride height drag (X,Y,Z)
 
-
 ### AER ADVANCED: ###
 
     general parameters:
@@ -35,3 +34,22 @@
         steering angle 
         front and rear ride height 
         wind effect (angle [deg] and speed[km/h])
+
+
+### EXAMPLES ###
+
+
+    from: [FRONT_DOWNFORCE](XY_DATA))
+
+        {front_ride_height downforce }
+        10.0 400.0 400.0 400.0 400.0 400.0 400.0
+        40.0 400.0 400.0 400.0 400.0 400.0 400.0
+        80.0 400.0 400.0 400.0 400.0 400.0 400.0
+        120.0 400.0 400.0 400.0 400.0 400.0 400.0
+        140.0 400.0 400.0 400.0 400.0 400.0 400.0
+        160.0 400.0 400.0 400.0 400.0 400.0 400.0
+
+        (                                                       )
+        | 10, 40, 80, 120, 140, 160   ----->  front_ride_height |
+        | 400, 400, 400, ........     ----->  downforce         |
+        (                                                       )
