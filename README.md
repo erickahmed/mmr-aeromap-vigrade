@@ -8,9 +8,9 @@ There are two tipes of scripts, AER Standard and AER Advanced. The main differen
 
 The Standard AER file contains aero maps as functions of front and rear ride heights:
 
-    - front downforce
-    - rear downforce
-    - drag force
+- front downforce
+- rear downforce
+- drag force
 
 The maps resolution and extension is customizable, but it is strongly recommended that the maps are defined for
 all the ride heights combination allowed by the ride height saturation boundaries. Standard and user defined units could be used to define the maps.
@@ -21,11 +21,11 @@ NOTE: the user-defined unit tags are not supported within tables. They are accep
 
 The Advanced AER file contains:
 
-    - front and rear downforce
-    - front and rear side force
-    - drag force
-    - rolling torque
-    - pitch torque
+- front and rear downforce
+- front and rear side force
+- drag force
+- rolling torque
+- pitch torque
 
 The maps resolution and extension is customizable, but it is strongly recommended that the maps are defined for all the ride heights combination allowed by the ride height saturation boundaries. Standard and user defined units could be used to define the maps.
 
