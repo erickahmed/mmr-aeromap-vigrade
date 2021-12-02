@@ -33,11 +33,10 @@
         roll 
         steering angle 
         front and rear ride height 
-        wind effect (angle [deg] and speed[km/h])
+        wind effect (angle [deg] and speed[v
 
 
 ### EXAMPLES ###
-
 
     from: [FRONT_DOWNFORCE](XY_DATA))
 
