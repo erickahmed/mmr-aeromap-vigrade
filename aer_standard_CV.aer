@@ -17,6 +17,7 @@ $----------------------------------------------------------------units
 {unit_type length force angle mass time conversion}
 'm_s' 1 0 0 0 -1 1000.0
 'kgpm3' -3 0 0 1 0 1e-9
+'kmh' 1 0 0 0 -1 277.78
 $-------------------------------------------------------------test_conditions
 [TEST_CONDITIONS]
 reference_velocity <kmh> = 100.0
