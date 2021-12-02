@@ -34,4 +34,4 @@
         roll 
         steering angle 
         front and rear ride height 
-        wind effect (anlge and speed)
+        wind effect (angle and speed)
