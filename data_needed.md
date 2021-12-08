@@ -8,7 +8,7 @@
         [kgpm3] air density at the track 
         [mm]    ride heights min and ride height max, front/rear
 
-    aero parame:
+    aero parame:*
         [mm]    drag arm height min and max TODO: verify what data program expects
         [N]     front and rear downforce (X,Y,Z)
         [N]     front and rear ride height drag (X,Y,Z)
