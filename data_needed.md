@@ -1,6 +1,3 @@
-## This is a summary of the data we need: ##
-
-
 ### AER STANDARD: ###
 
     general parameters:
@@ -8,10 +5,10 @@
         [kgpm3] air density at the track 
         [mm]    ride heights min and ride height max, front/rear
 
-    aero parame:*
-        [mm]    drag arm height min and max TODO: verify what data program expects
-        [N]     front and rear downforce (X,Y,Z)
-        [N]     front and rear ride height drag (X,Y,Z)
+    aero parame:
+        [mm]    drag arm height min and max TODO: verify what data program expects, application point
+        [N]     front and rear downforce (X,Y,Z) --> ride heights
+        [N]     front and rear ride height drag (X,Y,Z)  --> ride heights
 
 
 ### AER ADVANCED: ###
