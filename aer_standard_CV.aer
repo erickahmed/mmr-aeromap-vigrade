@@ -23,8 +23,8 @@ front_ride_height_min  <ride_height>   =  95.0
 front_ride_height_max  <ride_height>   =  100.0
 rear_ride_height_min   <ride_height>   =  40.0
 rear_ride_height_max   <ride_height>   =  100.0
-DRAG_ARM_HEIGHT_MIN = -50
-DRAG_ARM_HEIGHT_MAX = 800
+DRAG_ARM_HEIGHT_MIN = 0
+DRAG_ARM_HEIGHT_MAX = 1200
 $----------------------------------------------------------------FRONT_DOWNFORCE
 [FRONT_DOWNFORCE]
 (Z_DATA)
