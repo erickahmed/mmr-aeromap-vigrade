@@ -19,8 +19,8 @@ $----------------------------------------------------------------TEST_CONDITIONS
 [TEST_CONDITIONS]
 reference_velocity   <kmh>             =  50.0
 reference_density                      =  1.18
-front_ride_height_min  <ride_height>   =  95.0
-front_ride_height_max  <ride_height>   =  100.0
+front_ride_height_min  <ride_height>   =  35
+front_ride_height_max  <ride_height>   =  95
 rear_ride_height_min   <ride_height>   =  40.0
 rear_ride_height_max   <ride_height>   =  100.0
 DRAG_ARM_HEIGHT_MIN = 0
